@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(img/6213932.jpg) no-repeat center/cover;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header__content  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    
+}
+
+.registration{
+    margin: 10% ;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0, .5);
+    backdrop-filter: blur(20px);
+}
+
+h2 {
+    text-align: center;
+    color: #162938;
+    font-size: 30px;
+}
+
+.header__cont {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 300px;
+    padding: 13px;
+ 
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: transparent;
+    color: #162938;
+    font-size: 15px;
+    outline: none;
+}
+
+button {
+    width: 320px;
+    margin-top: 20px;
+    padding: 15px;
+    background:  #162938;
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.message {
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #162938;
+}
